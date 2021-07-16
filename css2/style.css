@@ -1,0 +1,72 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700&family=Roboto+Slab:wght@200;300&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #1b1221;
+}
+
+
+/* main heading fonts */
+
+.main-heading{
+    
+        /* font-family: 'Baloo Tammudu 2', cursive; */
+        font-family: 'Roboto Slab', serif;
+    
+}
+
+.navigation-link{
+  border:2px solid transparent;
+}
+
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #f5ba00;
+    transition: 0.5 ease;
+}
+
+.main-container{
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .main_row h1{
+   font-size: 5rem;
+}  */
+
+.main_row img{
+    width: auto;
+    height: 100vh;
+}
+
+#about{
+    background: #313552;
+    border-radius: 0.5rem;
+}
+
+.card{
+    border-bottom: 8px solid #faf171;
+}
+
+#social-media{
+    background: #313552;
+}
+
+.media_link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin: 1rem;
+    border: 2px solid #f5ba09;
+    border-radius: 0.5rem;
+}
